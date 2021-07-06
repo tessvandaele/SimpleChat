@@ -3,7 +3,7 @@ package com.example.simplechat;
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
 
-@ParseClassName("com.example.simplechat.Message")
+@ParseClassName("Message")
 public class Message extends ParseObject {
     public static final String USER_ID_KEY = "userId";
     public static final String BODY_KEY = "body";
